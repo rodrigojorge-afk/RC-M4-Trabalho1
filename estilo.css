@@ -1,0 +1,71 @@
+h1 {
+    color: rgb(43, 3, 145);
+    background-color:#131314;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-decoration: none;  
+    letter-spacing: 0em;
+    word-spacing:  0em;
+    text-align: center;
+}
+body {
+    background-image: url("imagemfundo.jpg");
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu {
+    background-color: #222;
+    padding: 10px;
+    position: fixed ;
+top: 0;
+left: 0;
+width: 100%;
+
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px;     
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #00f7ff; 
+}
+ p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.6;
+    text-align: justify;
+ }
+
+tr{
+text-align: center;
+color: floralwhite;
+background-color: #131314;
+
+}
+
+th {
+    background-color: #6f4caf;
+    color: white;
+    padding: 10px;
+    margin: center;
+}
+
+table{
+    margin: auto;
+}
